@@ -943,6 +943,8 @@ class VietnameseAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get sUnitAssetCountLabel => 'số lượng';
 }
 
+/// [AssetPickerTextDelegate] implements with Korean.
+/// 한국어 지역화
 class KoreanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   const KoreanAssetPickerTextDelegate();
 
@@ -956,13 +958,13 @@ class KoreanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get cancel => '취소';
 
   @override
-  String get edit => '수정';
+  String get edit => '편집';
 
   @override
   String get gifIndicator => 'GIF';
 
   @override
-  String get loadFailed => '로드 실패';
+  String get loadFailed => '불러오기 실패';
 
   @override
   String get original => '원본';
@@ -974,34 +976,32 @@ class KoreanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get select => '선택';
 
   @override
-  String get emptyList => '빈 리스트';
+  String get emptyList => '빈 목록';
 
   @override
-  String get unSupportedAssetType => 'Unsupported HEIC asset type.';
+  String get unSupportedAssetType => '지원하지 않는 HEIC 미디어 유형.';
 
   @override
-  String get unableToAccessAll => 'Unable to access all assets on the device';
+  String get unableToAccessAll => '기기의 모든 미디어에 접근할 수 없음';
 
   @override
-  String get viewingLimitedAssetsTip =>
-      'Only view assets and albums accessible to app.';
+  String get viewingLimitedAssetsTip => '앱에 접근 가능한 미디어과 앨범만 볼 수 있습니다.';
 
   @override
-  String get changeAccessibleLimitedAssets =>
-      'Click to update accessible assets';
+  String get changeAccessibleLimitedAssets => '접근 가능한 미디어을 업데이트하려면 클릭하세요';
 
   @override
-  String get accessAllTip => 'App can only access some assets on the device. '
-      'Go to system settings and allow app to access all assets on the device.';
+  String get accessAllTip => '앱은 기기의 일부 미디어에만 접근할 수 있습니다. '
+      '시스템 설정으로 이동하여 앱이 기기의 모든 미디어에 접근하도록 허용하세요.';
 
   @override
-  String get goToSystemSettings => 'Go to system settings';
+  String get goToSystemSettings => '시스템 설정으로 이동';
 
   @override
-  String get accessLimitedAssets => 'Continue with limited access';
+  String get accessLimitedAssets => '제한된 접근으로 계속';
 
   @override
-  String get accessiblePathName => 'Accessible assets';
+  String get accessiblePathName => '접근 가능한 미디어';
 
   @override
   String get sTypeAudioLabel => '오디오';
@@ -1013,7 +1013,7 @@ class KoreanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get sTypeVideoLabel => '비디오';
 
   @override
-  String get sTypeOtherLabel => '그 외';
+  String get sTypeOtherLabel => '다른 미디어';
 
   @override
   String get sActionPlayHint => '재생';
@@ -1025,7 +1025,7 @@ class KoreanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get sActionSelectHint => '선택';
 
   @override
-  String get sActionSwitchPathLabel => 'switch path';
+  String get sActionSwitchPathLabel => '경로 전환';
 
   @override
   String get sActionUseCameraHint => '카메라 사용';
@@ -1034,5 +1034,5 @@ class KoreanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get sNameDurationLabel => '기간';
 
   @override
-  String get sUnitAssetCountLabel => 'count';
+  String get sUnitAssetCountLabel => '개수';
 }
